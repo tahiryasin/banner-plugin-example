@@ -16,7 +16,7 @@ function wpt_append_banner($content)
     if (is_single() || is_page())
     {
         $banner = '<div id="banner">
-            <img src="http://www.achickwithbaggage.com/storage/site_graphics/ad_placeholder_banner.jpg" alt="banner" />
+            <img title="Banner" src="http://www.achickwithbaggage.com/storage/site_graphics/ad_placeholder_banner.jpg" alt="banner" />
             </div>';
         return $content . $banner;
     }
